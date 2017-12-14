@@ -1,7 +1,7 @@
 Danny Asmaro 
 Digital Controls - Dr. Li Bai - Temple University
 
-# Project 1: Simulink Library for Roomba
+## Project 1: Simulink Library for Roomba
 
 ## Instructions on Adding Roomba Libraries to Simulink library
 1. Download Roomba libraries (including multiple .m files) to the MATLAB document folder
