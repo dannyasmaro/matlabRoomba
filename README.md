@@ -1,6 +1,14 @@
 # Project 1: Simulink Library for Roomba
 Danny Asmaro - Course Digital Controls - Professor: Dr. Li Bai - Temple University
 
+## About
+Using three Simulink blocks created, we place them into navigation control based on the input to the Roomba from sensor input, and output velocity requirements to the wheels of your Roomba. We were required to create a serialport object which needs to be the same for both Simulink blocks.We made use of the ```presistant``` Simulink Code to reference the same serialport object for three of the Simulink blocks.
+
+## Prerequisites
+- iRobot Create® 2 Programmable Robot. It can be purchased [HERE.](http://www.irobot.com/About-iRobot/STEM/Create-2.aspx)
+- Raspberry Pi 3.  It can be purchased [HERE.](https://www.amazon.com/CanaKit-Raspberry-Complete-Starter-Kit/dp/B01C6Q2GSY)
+- Matlab Toolbox for the iRobot Create 2. It can be downloaded [HERE.](https://www.mathworks.com/matlabcentral/fileexchange/52644-matlab-toolbox-for-the-irobot-create-2).
+
 ## Instructions on Adding Roomba Libraries to Simulink library
 1. Download Roomba libraries (including multiple .m files) to the MATLAB document folder
 2. Locate the "slblocks.m" file
@@ -22,6 +30,4 @@ For this project, we created three Simulink library blocks:
 ### Third block for Left and Right Wheel Control (refer to SetWheelVelRoomba.m). 
 ![wheels](https://user-images.githubusercontent.com/31410235/33971184-2fd3a48a-e045-11e7-81f1-14b9746faad8.PNG)
 
-Using these three Simulink blocks created, we place them into navigation control based on the input to the Roomba from sensor input, and output velocity requirements to the wheels of your Roomba. We were required to create a serialport object which needs to be the same for both Simulink blocks.We made use of the ```presistant``` Simulink Code to reference the same serialport
-object for two of the Simulink blocks. 
 
